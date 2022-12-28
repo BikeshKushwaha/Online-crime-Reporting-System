@@ -16,6 +16,7 @@ class CreateSampleTable extends Migration
         Schema::create('sample', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('gdfgfgdf');
             $table->timestamps();
         });
     }
