@@ -16,6 +16,8 @@ class CreateRajTable extends Migration
         Schema::create('raj', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('age');
+            $table->string('address');
             $table->timestamps();
         });
     }
